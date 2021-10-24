@@ -11,16 +11,12 @@ setTodos(todos.filter((e)=>e.id !==todo.id));
    <li className="todo-item">
 {text}
    </li>
-   <button className="complete-btn">
-       <i className="fas fa-check">
-
-       </i>
+   <button className="done-btn">
+ Done
        </button> 
        <button onClick={deleteHandler} className="trash-btn">
-       <i className="fas fa-trash">
-
-       </i>
-       </button> 
+Delete
+         </button> 
 </div>
 );
 }
